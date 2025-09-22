@@ -1,85 +1,94 @@
-Unit 1: Data
-bit: A binary digit, either 0 or 1. Learn more in Binary numbers.
-byte: A sequence of 8 bits. Learn more in Bytes.
-roundoff: Error that results when the number of bits is not enough to represent the number with full precision (like using 3 digits to represent  as 3.14). Learn more in Number limits, overflow, and roundoff.
-analog data: Values that change smoothly, rather than in discrete intervals, over time. For example, the pitch and volume of a live concert. Learn more in From analog to digital data.
-lossless: Compressing data in a way that preserves all data away and allows full recovery of the original. Learn more in Data compression.
-lossy: Compressing data in a way that discards some data and makes it impossible to recover the original. Learn more in Data compression.
-metadata: Data about data, like descriptive information about a file or a row in a database.
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Marco's Dark Web Journey</title>
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+    body {
+      background-color: #0d0d0d;
+      color: #99ff33;
+      font-family: 'Press Start 2P', cursive;
+      margin: 0;
+      padding: 20px;
+    }
+    header {
+      font-size: 2rem;
+      text-align: center;
+      margin-bottom: 1rem;
+      border-bottom: 2px solid #99ff33;
+      padding-bottom: 10px;
+    }
+    section {
+      max-width: 900px;
+      margin: auto;
+      line-height: 1.5;
+    }
+    h2 {
+      margin-top: 2rem;
+      border-bottom: 1px solid #99ff33;
+      padding-bottom: 0.5rem;
+    }
+    .images {
+      display: flex;
+      justify-content: center;
+      gap: 30px;
+      margin-top: 20px;
+      flex-wrap: wrap;
+    }
+    .images img {
+      max-width: 300px;
+      border: 2px solid #99ff33;
+      border-radius: 6px;
+    }
+    iframe {
+      display: block;
+      max-width: 800px;
+      width: 100%;
+      margin: 40px auto 0;
+      border: 3px solid #99ff33;
+      border-radius: 6px;
+    }
+    nav {
+      margin-top: 40px;
+      text-align: center;
+    }
+    nav a {
+      color: #99ff33;
+      text-decoration: none;
+      font-weight: bold;
+      margin: 0 15px;
+      font-size: 1rem;
+    }
+    nav a:hover {
+      text-decoration: underline;
+    }
+  </style>
+</head>
+<body>
+  <header>Marco</header>
 
-Unit 2: Computer Systems and Networks – Review
-Vocabulary
-Computing Device: A physical device that can run a program (e.g., computer, smartphone, smart sensor).
+  <section>
+    <p>I want to study <strong>the uses of the dark web</strong> after high school.</p>
 
+    <h2>Topics from Units 1 and 2</h2>
+    <div class="images">
+      <img src="https://upload.wikimedia.org/wikipedia/commons/6/65/Binary_code.svg" alt="Binary Code (Unit 1: Data)" />
+      <img src="https://upload.wikimedia.org/wikipedia/commons/e/e7/Network_diagram.svg" alt="Network Diagram (Unit 2: Networks)" />
+    </div>
 
-Computer Network: A group of interconnected computing devices capable of sending or receiving data.
+    <h2>How the Internet Works</h2>
+    <iframe 
+      src="https://www.youtube.com/embed/7_LPdttKXPc" 
+      title="How the Internet Works - Computerphile" 
+      allowfullscreen 
+      loading="lazy"></iframe>
+  </section>
 
-
-Path: The series of connections between computing devices on a network, starting with the sender and ending with the receiver.
-
-
-Protocol: An agreed-upon set of rules that specify how systems behave and communicate.
-
-
-Fault Tolerant: A system’s ability to continue functioning even if individual components fail.
-
-
-Scalability: The ability of a system to expand or contract to meet new demands.
-
-
-Bandwidth: The maximum transmission capacity of a system, measured by bit rate (bits per second).
-
-
-URL (Uniform Resource Locator): An easy-to-remember web address (e.g., www.example.com).
-
-
-Internet Structure and Layers
-Physical Network: The hardware and physical connections that carry internet signals.
-
-
-Internet Protocol (IP): Assigns unique IP addresses to devices and determines how data is routed between them.
-
-
-Transmission Control Protocol (TCP): Ensures reliable, ordered, and error-checked delivery of data packets.
-
-
-User Datagram Protocol (UDP): A lightweight alternative to TCP with minimal error-checking (faster but less reliable).
-
-
-Packets: Small chunks of data into which larger messages are divided for transmission. Packets may arrive in order, out-of-order, or not at all.
-
-
-Routers: Specialized computers that forward data across networks, choosing the fastest available path.
-
-
-Domain Name System (DNS): Translates human-readable domain names (like example.com) into IP addresses.
-
-
-Hypertext Transfer Protocol (HTTP): Used for transmitting and requesting web pages and media on the World Wide Web.
-
-
-World Wide Web (WWW): A system of linked pages, media, and files browsable over HTTP.
-
-
-Key Concepts
-Message Delivery on the Internet: Messages are split into packets, which may take different paths through the network. The internet does not require a direct connection between sender and receiver.
-
-
-Redundancy: Multiple pathways exist in the network so if one route fails, packets can take another.
-
-
-Fault Tolerance: Because of redundancy, the internet can continue working even if parts of it are damaged.
-
-
-Scalability: The internet is designed to grow and support billions of devices without redesigning its core structure.
-
-
-IP Addressing and Encoding:
-
-
-IPv4 uses 32-bit addresses → 232=4,294,967,2962^{32} = 4,294,967,296232=4,294,967,296 unique addresses.
-
-
-Adding 16 more bits (IPv6) increases the address space by 216=65,5362^{16} = 65,536216=65,536 times.
-
-
+  <nav>
+    <a href="unit1.html">Unit 1 Vocabulary</a> | 
+    <a href="unit2.html">Unit 2 Vocabulary</a>
+  </nav>
+</body>
+</html>
