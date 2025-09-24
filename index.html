@@ -136,24 +136,18 @@
     <dl>
       <dt>bit</dt>
       <dd>A binary digit, either 0 or 1.</dd>
-
       <dt>byte</dt>
       <dd>A sequence of 8 bits.</dd>
-
       <dt>roundoff</dt>
-      <dd>Error that results when the number of bits is not enough to represent the number with full precision (like using 3 digits to represent as 3.14).</dd>
-
+      <dd>Error that results when the number of bits is not enough to represent the number with full precision.</dd>
       <dt>analog data</dt>
-      <dd>Values that change smoothly, rather than in discrete intervals, over time. For example, the pitch and volume of a live concert.</dd>
-
+      <dd>Values that change smoothly over time.</dd>
       <dt>lossless</dt>
-      <dd>Compressing data in a way that preserves all data away and allows full recovery of the original.</dd>
-
+      <dd>Compression that allows full recovery of the original data.</dd>
       <dt>lossy</dt>
-      <dd>Compressing data in a way that discards some data and makes it impossible to recover the original.</dd>
-
+      <dd>Compression that discards some data and can't recover the original exactly.</dd>
       <dt>metadata</dt>
-      <dd>Data about data, like descriptive information about a file or a row in a database.</dd>
+      <dd>Data about data, like info about a file or a row in a database.</dd>
     </dl>
   </section>
 
@@ -161,90 +155,76 @@
     <h1>Unit 2 Vocabulary: Computer Systems and Networks</h1>
     <dl>
       <dt>Computing Device</dt>
-      <dd>A physical device that can run a program (e.g., computer, smartphone, smart sensor).</dd>
-
+      <dd>A device that can run a program (e.g., computer, smartphone).</dd>
       <dt>Computer Network</dt>
-      <dd>A group of interconnected computing devices capable of sending or receiving data.</dd>
-
+      <dd>Devices connected that can send/receive data.</dd>
       <dt>Path</dt>
-      <dd>The series of connections between computing devices on a network, starting with the sender and ending with the receiver.</dd>
-
+      <dd>Series of connections from sender to receiver.</dd>
       <dt>Protocol</dt>
-      <dd>An agreed-upon set of rules that specify how systems behave and communicate.</dd>
-
+      <dd>Rules for how systems behave and communicate.</dd>
       <dt>Fault Tolerant</dt>
-      <dd>A system’s ability to continue functioning even if individual components fail.</dd>
-
+      <dd>Continues working even if parts fail.</dd>
       <dt>Scalability</dt>
-      <dd>The ability of a system to expand or contract to meet new demands.</dd>
-
+      <dd>Can grow to meet new demands.</dd>
       <dt>Bandwidth</dt>
-      <dd>The maximum transmission capacity of a system, measured by bit rate (bits per second).</dd>
-
-      <dt>URL (Uniform Resource Locator)</dt>
-      <dd>An easy-to-remember web address (e.g., www.example.com).</dd>
-
+      <dd>Max transmission capacity (bits per second).</dd>
+      <dt>URL</dt>
+      <dd>Human-friendly web address.</dd>
       <dt>Physical Network</dt>
-      <dd>The hardware and physical connections that carry internet signals.</dd>
-
+      <dd>Hardware that carries internet signals.</dd>
       <dt>Internet Protocol (IP)</dt>
-      <dd>Assigns unique IP addresses to devices and determines how data is routed between them.</dd>
-
-      <dt>Transmission Control Protocol (TCP)</dt>
-      <dd>Ensures reliable, ordered, and error-checked delivery of data packets.</dd>
-
-      <dt>User Datagram Protocol (UDP)</dt>
-      <dd>A lightweight alternative to TCP with minimal error-checking (faster but less reliable).</dd>
-
+      <dd>Assigns addresses and routes data.</dd>
+      <dt>TCP</dt>
+      <dd>Reliable delivery of data packets.</dd>
+      <dt>UDP</dt>
+      <dd>Faster, less reliable delivery.</dd>
       <dt>Packets</dt>
-      <dd>Small chunks of data into which larger messages are divided for transmission. Packets may arrive in order, out-of-order, or not at all.</dd>
-
+      <dd>Chunks of data messages are split into.</dd>
       <dt>Routers</dt>
-      <dd>Specialized computers that forward data across networks, choosing the fastest available path.</dd>
-
-      <dt>Domain Name System (DNS)</dt>
-      <dd>Translates human-readable domain names (like example.com) into IP addresses.</dd>
-
-      <dt>Hypertext Transfer Protocol (HTTP)</dt>
-      <dd>Used for transmitting and requesting web pages and media on the World Wide Web.</dd>
-
-      <dt>World Wide Web (WWW)</dt>
-      <dd>A system of linked pages, media, and files browsable over HTTP.</dd>
-
-      <dt>Message Delivery on the Internet</dt>
-      <dd>Messages are split into packets, which may take different paths through the network. The internet does not require a direct connection between sender and receiver.</dd>
-
+      <dd>Forward data along networks.</dd>
+      <dt>DNS</dt>
+      <dd>Translates domain names into IP addresses.</dd>
+      <dt>HTTP</dt>
+      <dd>Protocol for web pages and media.</dd>
+      <dt>WWW</dt>
+      <dd>System of linked pages and files.</dd>
+      <dt>Message Delivery</dt>
+      <dd>Packets take different paths; no direct line needed.</dd>
       <dt>Redundancy</dt>
-      <dd>Multiple pathways exist in the network so if one route fails, packets can take another.</dd>
-
+      <dd>Multiple paths exist in the network.</dd>
       <dt>Fault Tolerance</dt>
-      <dd>Because of redundancy, the internet can continue working even if parts of it are damaged.</dd>
-
+      <dd>Network can keep working even if parts fail.</dd>
       <dt>Scalability</dt>
-      <dd>The internet is designed to grow and support billions of devices without redesigning its core structure.</dd>
-
-      <dt>IP Addressing and Encoding</dt>
-      <dd>IPv4 uses 32-bit addresses → 4,294,967,296 unique addresses. Adding 16 more bits (IPv6) increases the address space by 65,536 times.</dd>
+      <dd>Internet can grow without major redesign.</dd>
+      <dt>IP Addressing</dt>
+      <dd>IPv4 = 32 bits, IPv6 = 128 bits.</dd>
     </dl>
   </section>
 
   <section id="darkweb">
-  <h1>Uses of the Dark Web</h1>
-  <p>The <strong>dark web</strong> is a part of the internet that is not indexed by search engines and requires special software like Tor to access.</p>
-  <p>It is used for various purposes, including:</p>
-  <ul>
-    <li><strong>Privacy and anonymity:</strong> People use the dark web to communicate privately without surveillance.</li>
-    <li><strong>Whistleblowing and activism:</strong> It provides a safe space for whistleblowers and activists to share information.</li>
-    <li><strong>Access to restricted information:</strong> In countries with censorship, the dark web helps people bypass restrictions.</li>
-    <li><strong>Marketplaces:</strong> Both legal and illegal goods and services are traded on dark web marketplaces.</li>
-    <li><strong>Research and security testing:</strong> Cybersecurity professionals use it to test defenses and research threats.</li>
-  </ul>
-  <p>Understanding these uses is important when studying the impact and ethics of the dark web.</p>
+    <h1>Uses of the Dark Web</h1>
+    <p>The <strong>dark web</strong> is a part of the internet that is not indexed by search engines and requires special software like Tor to access.</p>
+    <p>It is used for various purposes, including:</p>
+    <ul>
+      <li><strong>Privacy and anonymity:</strong> Communicate privately without surveillance.</li>
+      <li><strong>Whistleblowing and activism:</strong> Share information safely.</li>
+      <li><strong>Access to restricted info:</strong> Bypass censorship.</li>
+      <li><strong>Marketplaces:</strong> Trade legal and illegal goods/services.</li>
+      <li><strong>Research and testing:</strong> For cybersecurity work.</li>
+    </ul>
+    <p>Understanding these uses is important when studying the impact and ethics of the dark web.</p>
 
-  <iframe 
-    src="https://www.youtube.com/embed/N3-zrhoBx6w?start=4" 
-    title="Dark Web Explained" 
-    allowfullscreen 
-    loading="lazy">
-  </iframe>
-</section>
+    <iframe 
+      src="https://www.youtube.com/embed/N3-zrhoBx6w?start=4" 
+      title="Dark Web Explained" 
+      allowfullscreen 
+      loading="lazy"></iframe>
+  </section>
+
+  <!-- ✅ JavaScript to switch sections -->
+  <script>
+    function showSection(sectionId) {
+      // Hide all sections
+      document.querySelectorAll("section").forEach((section) => {
+        section.classList.remove("active");
+
